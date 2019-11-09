@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Home Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" id="changeDesign" type="text/css" href="../css/index.css" />
+    </head> 
+    
+	<style>
+		.mySlides {display:none;}
+	</style>
+    <body>
+    
+        <div class='wrapper'>	<!-- wrapper start -->
+			
+            <img src="../img/Taylor_swift_signature.png"  width="300" height="100">
+                
+            <div id="nav">	<!-- navigator start -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>	<!-- end the navigator -->
+            
+            <div id="content">  <!-- content start -->
+            <h1>Concert</h1>
+            
+            <h2>
+            Taylor Swift Talks Friends, Sheep, And What To Expect From 
+            <br/>
+            Her World Tour! Watch The Interview HERE!
+            </h2>
+			<div class="w3-content w3-section" style="max-width:500px" >
+				<img class="mySlides w3-animate-top" src="../img/concert/3.jpg" height="600" width="600" >
+				<img class="mySlides w3-animate-bottom" src="../img/concert/4.jpg" height="600" width="600">
+				<img class="mySlides w3-animate-bottom" src="../img/concert/5.jpg" height="600" width="600">
+			</div>
+            <!--<img src="../img/concert/3.jpg" width="600" height="600">-->
+            <p>
+            Taylor Swift has been pretty busy rehearsing for her world tour, but she still has enough time 
+            <br/>
+            to tease us with what we can expect!In a recent interview, the Style singer gave some insight 
+            <br/>
+            as to the changes she's making in her upcoming 1989 world tour, explaining that she wanted to 
+            <br/>
+            flip every decision she's made in previous tours and do the opposite!
+            <br/>
+            [ Related: Taylor Swift Gives A 12-Year-Old Girl Battling Cancer The Gift Of A Lifetime! ]
+            <br/>
+            That means different screens, lights, and costume changes! Swifty then dished that the fashion 
+            <br/>
+            in this show will be less costume-y and more "chic."
+            </p>
+            
+            <br><br>
+            
+            <h2>LPGA golfer gets concert tickets from Taylor Swift in Japan</h2>
+            <img src="../img/concert/1.jpg"  width="700" height="450">
+            <p>
+                Taylor Swift is performing in Japan this week. (Getty Images)Jessica Korda is in Japan this week. 
+            <br/>
+                Taylor Swift is in Japan this week. Things happened.Korda flipped out after Swift offered her  
+            <br/>
+                concert tickets over Twitter on Monday. Swift's 1989 tour is starting this week in Tokyo.
+            </p>
+        
+            <p>Korda is, clearly, a fan.</p>
+            
+            <br><br>
+            
+            <h2>
+            Wonder How Taylor Swift & Ed Sheeran HIGHlariously 
+            <br/>
+            Communicate Via Text?! Look No Further!
+            </h2>
+            <img src="../img/concert/taylor-swift-ed-sheeran-bffs.gif"  width="700" height="450">
+            <p>
+            And they're the two best friends that anyone could ever have!
+            <br/>
+            Everyone in the world knows that Taylor Swift and Ed Sheeran are like, the greatest musical BFF 
+            <br/>
+            coupling in history!
+            <br/>
+            So any interaction we get to see happen between the two of them is just like winning the lottery!
+            <br/>
+            [ Watch: Taylor Vs. Ed: Who Knows Who Better?? ]
+            <br/>
+            It's been a hot minute since Tay posted anything about her British bestie — and in a swift 
+            <br/>
+            moment on Monday morning, everything changed.
+            </p>
+        
+            </div> <!-- end the content -->
+            
+            <br>
+            
+            <div id="footer">
+            <br>
+            <a href="http://www.facebook.com" target="_blank"> 
+                <img src="../img/footer/facebook.png" style="width:60px;height:60px;border=0;" />
+            </a>
+            <a href="http://www.instagram.com" target="_blank"> 
+                <img src="../img/footer/instagram.png" style="width:60px;height:60px;border=0;" />
+            </a>
+            <a href="http://www.twitter.com" target="_blank"> 
+                <img src="../img/footer/twitter.png" style="width:60px;height:60px;border=0;" />
+            </a>
+            <br/>
+            Â© 2015 Taylor Swift. All rights reserved. design by st8mnt. Powered by Wonderful Union 
+            <br/>
+            Privacy Policy | Terms of Service | g(c) Privacy Policy | g(c) 
+            <br/>
+            Terms of Service Visit <a href="http://www.OnGuardOnline.gov/">www.OnGuardOnline.gov</a> for social networking safety tips for parents 
+            <br/>
+            and youth.
+            </div>
+        
+        </div> <!-- end the wrapper -->
+    
+    </body>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 2500);    
+	}
+	</script>
+</html>

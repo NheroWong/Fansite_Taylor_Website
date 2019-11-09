@@ -1,0 +1,50 @@
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    background:url(../img/Home_Background2.jpg);
+    background-repeat:no-repeat;
+	background-size: contain;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+.wrapper {
+	width: 80%;
+	margin:0 auto;
+}
+
+#nav ul {
+    padding: 10;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color:#000;
+    background-color:#FCF;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav a:hover, a:active {
+    background-color:#9FF;
+}
+
+fieldset{
+	background-color:#FFF;
+	width:1000px; 
+	opacity:0.9;
+}
+
+#footer{
+	height:180px;
+	width: 700px;
+	background-color:#CFF;
+}

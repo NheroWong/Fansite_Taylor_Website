@@ -9,8 +9,13 @@ Go to "pages" >> Double click on "index" (open with any browser. Etc: Google,IE,
 
 ## Feature - Code/Script
 Simple HTML
+
 CSS
+
 Javascript animation
+
 Img/video
+
 Feedback form
+
 Wisely use for small project in diploma courses.
